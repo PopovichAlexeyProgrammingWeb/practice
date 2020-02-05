@@ -10,7 +10,9 @@ const Main = () => {
     <div className='main'>
       <div className='header'><Header/></div>
       <div className='navigation'><Navigation/></div>
-      <div className='body'><Body/></div>
+      <div className='mainContent'>
+        <div className='body'><Body/></div>
+      </div>
       <div className='footer'><Footer/></div>
     </div>
 );
