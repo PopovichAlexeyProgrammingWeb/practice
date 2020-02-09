@@ -1,0 +1,22 @@
+.headerlong{
+  grid-area: h;
+  background: rgb(147, 122, 74);
+}
+
+.headerlogo{
+	float: left;
+	color: #496266;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 24px;
+	cursor: pointer;
+  padding: 25px;
+}
+
+.smalllogo{
+	font-size: 12px;
+	float: right;
+	top: 0px;
+	right: 13px;
+	color: #fcac45;
+}

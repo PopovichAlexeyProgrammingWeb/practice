@@ -1,11 +1,25 @@
-import React from 'react';
-import Main from './intouch/main/main.jsx';
 import './App.css';
+import './body/body.css';
+import './header/header.css';
+import Header from './header/header.jsx';
+import Navigation from './navigation/navigation.jsx';
+import Body from './body/body.jsx';
+import Footer from './footer/footer.jsx';
+import {BrowserRouter} from 'react-router-dom'
+import React from 'react';
 
 
-function App() {
+
+const App = () => {
   return (
-    <Main />
+    <BrowserRouter>
+      <div className='App'>
+        <div className='headerlong'><Header/></div>
+        <div className='navigation'><Navigation/></div>
+        <div className='Act'><Body/></div>
+        <div className='footer'><Footer/></div>
+      </div>
+    </BrowserRouter>
   );
 }
 
