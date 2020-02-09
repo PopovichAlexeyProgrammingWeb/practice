@@ -1,0 +1,31 @@
+.Posts{
+}
+
+.correspondence{
+  position: relative;
+  display: grid;
+  grid-template-areas:
+  "p name"
+  "p messages";
+  grid-template-rows: 50px 20px;
+  grid-template-columns: 50px 1fr;
+  padding: 10px;
+  border: 1px solid rgb(133, 94, 63) ;
+  margin: 10px;
+}
+
+.photo img{
+  grid-area: p;
+  border: 3px solid orange;
+  border-radius: 23px;
+  width: 40px;
+  height: 40px;
+}
+
+.Namelog{
+  grid-area: name;
+}
+
+.Messageslog{
+  grid-area: messages;
+}
