@@ -11,7 +11,7 @@ a:hover {
   grid-area: n;
   width: 200px;
   height: 1fr;
-  background-color: rgba(74, 238, 244, 0.31);
+  background-color: rgba(74, 238, 244);
 }
 
 .linksArroy {

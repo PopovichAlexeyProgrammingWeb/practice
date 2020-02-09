@@ -9,85 +9,85 @@ const Posts = () => {
       <div>
         Posts.
       </div>
-      <div className={s.correspondence}>
+      <div>
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
-      <div className={s.correspondence}>
+      <div >
         <Post/>
       </div>
     </div>

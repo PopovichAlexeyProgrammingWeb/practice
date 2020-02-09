@@ -1,17 +1,17 @@
 .Posts{
+
 }
 
-.correspondence{
+.Post{
   position: relative;
   display: grid;
   grid-template-areas:
-  "p name"
-  "p messages";
-  grid-template-rows: 50px 20px;
+  "p nm";
   grid-template-columns: 50px 1fr;
   padding: 10px;
   border: 1px solid rgb(133, 94, 63) ;
   margin: 10px;
+  text-align: left;
 }
 
 .photo img{
@@ -20,12 +20,25 @@
   border-radius: 23px;
   width: 40px;
   height: 40px;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.Namelog{
-  grid-area: name;
+.NameMessage{
+  grid-area: nm;
+  display: grid;
+  grid-template-areas:
+  "n"
+  "m";
+  grid-template-rows: 25px 25px;
 }
 
-.Messageslog{
-  grid-area: messages;
+.Name{
+  grid-area: n;
+  padding: 3px;
+}
+
+.Messages{
+  grid-area: m;
+  padding: 3px;
 }

@@ -14,9 +14,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='App'>
-        <div className='headerlong'><Header/></div>
+        <div className='header'><Header/></div>
         <div className='navigation'><Navigation/></div>
-        <div className='Act'><Body/></div>
+        <div className='body'><Body/></div>
         <div className='footer'><Footer/></div>
       </div>
     </BrowserRouter>
