@@ -15,9 +15,18 @@
 }
 
 .photo img{
+  position: relative;
+  display: inline-block;
   grid-area: p;
   border: 3px solid orange;
   border-radius: 23px;
+  repeat: no-repeat;
+  align-content: center;
+  vertical-align: middle;
+  background: url('./../images/1.jpg');
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   width: 40px;
   height: 40px;
   text-align: center;
@@ -25,12 +34,17 @@
 }
 
 .NameMessage{
+  padding-left: 5px;
   grid-area: nm;
   display: grid;
   grid-template-areas:
   "n"
   "m";
   grid-template-rows: 25px 25px;
+}
+
+.NameMessage a:hover {
+  font-weight: 500;
 }
 
 .Name{
@@ -41,4 +55,30 @@
 .Messages{
   grid-area: m;
   padding: 3px;
+  white-space: nowrap;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 12.5px;
+  color: #656565;
+  padding-bottom: 1px;
+  line-height: 16px;
+}
+
+.Fibra{
+  display: grid;
+  grid-template-areas:
+  'Iriska Guzlo';
+  grid-template-columns: 150px 1fr;
+}
+
+.Iriska{
+  padding: 10px;
+  grid-area: Iriska;
+}
+
+.Guzlo{
+  padding: 10px;
+  grid-area: Guzlo;
+
 }
