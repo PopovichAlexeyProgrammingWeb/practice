@@ -10,13 +10,14 @@ import React from 'react';
 
 
 
-const App = () => {
+const App = (props) => {
+
   return (
     <BrowserRouter>
       <div className='App'>
         <div className='header'><Header/></div>
         <div className='navigation'><Navigation/></div>
-        <div className='body'><Body/></div>
+        <div className='body'><Body dialogs={props.dialogs} messages={props.messages} /></div>
         <div className='footer'><Footer/></div>
       </div>
     </BrowserRouter>

@@ -25,25 +25,14 @@ const Message = (props) => {
   )
 }
 
-const Dialogs = (props) => {
-    let dialogsElements = props.dialogs.map( d => <DialogItem name={d.name} id={d.id}/>);
-    let messagesElements = props.messages.map( m => <Message message={m.message}/>);
-
+const Dialog = (props) => {
     return (
         <div>
             <div>
-                Dialogs
-            </div>
-            <div className={s.Fibra}>
-                <div>
-                    {dialogsElements}
-                </div>
-                <div>
-                    {messagesElements}
-                </div>
+                Dialog
             </div>
         </div>
     )
 }
 
-export default Dialogs;
+export default Dialog;

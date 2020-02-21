@@ -11,21 +11,21 @@ import {Route} from 'react-router-dom';
 import p from './Posts.jsx';
 import {NavLink} from 'react-router-dom';
 import Dialogs from './Dialogs.jsx'
+import Dialog from './Dialog.jsx'
 
 
-let PostIon =() => <Dialogs/>
+const Body = (props) => {
 
-
-const Body = () => {
   return (
     <div className={s.Act}>
       <Route path='/Homepage' component={Homepage} activeClassName={s.active}/>
+      <Route path='/Posts' component={Posts}/>
       <Route path='/Aboutme' component={Aboutme}/>
       <Route path='/Services' component={Services}/>
       <Route path='/Portfolio' component={Portfolio}/>
       <Route path='/Contacts' component={Contacts}/>
-      <Route exact path='/Posts' component={Posts}/>
-      <Route path='/Posts/1' component={PostIon} />
+      <Route exact path='/dialogs' render={ () =>  <Dialogs dialogs={props.dialogs} messages={props.messages}/> }/>
+      <Route path='/dialog/1' component={Dialog} />
     </div>
 );
 }
