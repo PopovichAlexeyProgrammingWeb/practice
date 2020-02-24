@@ -1,10 +1,6 @@
 import React from 'react';
 import s from './Posts.module.css';
-import Posts from './Posts.jsx';
-import picture from './../images/1.jpg'
 import {NavLink} from 'react-router-dom';
-import p from './Posts.jsx';
-
 
 const DialogItem = (props) => {
   return (

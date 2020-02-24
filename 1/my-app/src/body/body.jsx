@@ -3,13 +3,10 @@ import s from './body.css';
 import Homepage from './../Homepage/Homepage.jsx';
 import Aboutme from './Aboutme.jsx';
 import Posts from './Posts.jsx';
-import Post from './Post.jsx';
 import Services from './Services.jsx';
 import Contacts from './Contact.jsx';
 import Portfolio from './Portfolio.jsx';
-import {Route} from 'react-router-dom';
-import p from './Posts.jsx';
-import {NavLink} from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Dialogs from './Dialogs.jsx'
 import Dialog from './Dialog.jsx'
 
@@ -18,14 +15,26 @@ const Body = (props) => {
 
   return (
     <div className={s.Act}>
-      <Route path='/Homepage' component={Homepage} activeClassName={s.active}/>
-      <Route path='/Posts' component={Posts}/>
-      <Route path='/Aboutme' component={Aboutme}/>
-      <Route path='/Services' component={Services}/>
-      <Route path='/Portfolio' component={Portfolio}/>
-      <Route path='/Contacts' component={Contacts}/>
-      <Route exact path='/dialogs' render={ () =>  <Dialogs dialogs={props.dialogs} messages={props.messages}/> }/>
-      <Route path='/dialog/1' component={Dialog} />
+      <Route path = '/Homepage' component = { Homepage } activeClassName = { s.active } />
+      <Route path = '/Posts' render =
+        { () => < Posts
+            addPost = { props.addPost }
+            posts = { props.posts }
+            updateNewPostText = {props.updateNewPostText}
+        /> }
+      />
+      <Route path = '/Aboutme' component = { Aboutme } />
+      <Route path = '/Services' component = { Services } />
+      <Route path = '/Portfolio' component = { Portfolio } />
+      <Route path = '/Contacts' component = { Contacts } />
+      <Route exact path = '/dialogs' render = { () =>
+          <Dialogs
+              dialogs = {props.dialogs}
+              messages = {props.messages}
+              addPost = {props.addPost}
+          />
+      }/>
+      <Route path = '/dialog/1' component = { Dialog } />
     </div>
 );
 }
