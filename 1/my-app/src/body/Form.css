@@ -1,0 +1,30 @@
+.form{
+  position: relative;
+  background: rgba(29, 32, 24, 0.72);
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  border-radius: 100px;
+}
+
+.input{
+  position: absolute;
+  width: 100px;
+  top: 27px;
+  left: 58px;
+}
+
+.intut{
+  text-align: center;
+  border-radius: 20px;
+  margin: 5px;
+  background: rgb(255, 255, 255);
+}
+
+.registration{
+  border-radius: 20px;
+  margin: 5px;
+  position: absolute;
+  left: 42px;
+  color: rgba(29, 32, 24, 0.72);
+}

@@ -5,7 +5,9 @@ import './Aboutme.css';
 const Aboutme = () => {
   return (
     <div>
-      About me.
+        <div>
+          About me.
+        </div>
     </div>
   );
 }

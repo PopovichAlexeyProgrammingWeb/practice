@@ -12,6 +12,7 @@ const Navigation = () => {
       <div className='linksArroy'><NavLink to='/Portfolio'>Портфолио</NavLink></div>
       <div className='linksArroy'><NavLink to='/Contacts'>Контакты</NavLink></div>
       <div className='linksArroy'><NavLink to='/Dialogs'>Сообщения</NavLink></div>
+      <div className='linksArroy'><NavLink to='/form'>Форма заполнения</NavLink></div>
     </div>
   );
 }

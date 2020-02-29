@@ -7,8 +7,9 @@ import Services from './Services.jsx';
 import Contacts from './Contact.jsx';
 import Portfolio from './Portfolio.jsx';
 import { Route } from 'react-router-dom';
-import Dialogs from './Dialogs.jsx'
-import Dialog from './Dialog.jsx'
+import Dialogs from './Dialogs.jsx';
+import Dialog from './Dialog.jsx';
+import Form from './Form.jsx'
 
 
 const Body = (props) => {
@@ -35,6 +36,7 @@ const Body = (props) => {
           />
       }/>
       <Route path = '/dialog/1' component = { Dialog } />
+      <Route path = '/form' component = { Form } />
     </div>
 );
 }
