@@ -1,6 +1,7 @@
 import './App.css';
 import './body/body.css';
 import './header/header.css';
+import './footer/footer.css';
 import Header from './header/header.jsx';
 import Navigation from './navigation/navigation.jsx';
 import Body from './body/body.jsx';
@@ -23,7 +24,7 @@ const App = (props) => {
                 newPostText={props.state.newPostText}
             />
         </div>
-        <div className='footer'><Footer/></div>
+        <div className='footer'><div className='footerText'><Footer/></div></div>
       </div>
   );
 }

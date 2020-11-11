@@ -1,17 +1,27 @@
 .form{
   position: relative;
-  background: rgba(29, 32, 24, 0.72);
+  color: rgb(66, 75, 18);
+  background: rgba(153, 219, 39, 0.89);
   width: 300px;
   height: 200px;
   margin: auto;
+  top: 90px;
   border-radius: 100px;
+  border: 1px solid rgb(66, 75, 18);
 }
 
 .input{
   position: absolute;
   width: 100px;
-  top: 27px;
+  top: 30px;
   left: 58px;
+}
+
+.lasso{
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  text-align: center;
 }
 
 .intut{
@@ -23,8 +33,10 @@
 
 .registration{
   border-radius: 20px;
-  margin: 5px;
+  margin: 10px;
   position: absolute;
-  left: 42px;
-  color: rgba(29, 32, 24, 0.72);
+  font-size: 16px;
+  left: 30px;
+  color: rgba(255, 255, 255, 1);
+  background: rgb(66, 75, 18) ;
 }

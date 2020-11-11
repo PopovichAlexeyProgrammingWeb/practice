@@ -7,6 +7,7 @@ const  Form = () => {
     <div>
         <form className="form">
             <div className='input'>
+                <div className='lasso'>РЕГИСТРАЦИЯ</div>
                 <Input type="text" name="firstname" placeholder="Фамилия"/>
                 <Input type="text" name="lastname" placeholder="Имя"/>
                 <Input type="email" name="email" placeholder="E-mail"/>

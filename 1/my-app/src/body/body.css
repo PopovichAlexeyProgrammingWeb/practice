@@ -1,11 +1,11 @@
 .body {
   width: 1fr;
   height: 1fr;
-  background-color: rgb(40, 200, 147);
+  background-color: rgb(102, 224, 144);
   color: rgb(172, 63, 28);
   padding: 10px;
 }
 
 .active{
-  color: green;
+  color: rgb(227, 255, 0);
 }
